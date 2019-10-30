@@ -5,6 +5,8 @@ body {
   font-size: 16px;
   line-height: 20px;
   text-align: center;
+  background-image: url(images/background.jpg);
+  background-size: cover;
 }
 
 h1 {
@@ -32,7 +34,7 @@ a:hover {
 }
 
 .card {
-  background: rgb(70, 136, 178);
+  background: rgb(81, 116, 122, 0.4);
   padding: 30px;
   border-radius: 7px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
@@ -53,10 +55,17 @@ a:hover {
   padding: 0px 20px;
   list-style: none;
   padding-left: 0px;
+  opacity:0.8;
+  font-size: 36px;
+  font-color: rgb(66, 101, 112);
 }
 
-.blue-button {
-  background: rgb(63, 85, 160);
+.list-inline > li:hover {
+  opacity:2;
+}
+
+.burgundee-button {
+  background: rgb(248, 206, 184, 0.5);
   color: rgb(230, 230, 245);
   padding: 20px;
   border-radius: 7px;
